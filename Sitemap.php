@@ -1,7 +1,5 @@
 <?php
 
-use DOMDocument;
-
 /**
  * Sitemap Generator
  *
@@ -124,7 +122,7 @@ class Sitemap {
     $i = 0;
     foreach ( $this->urls as $key => $urlset ) {
 
-      if ( ++$i >= $this->limit ) {
+      if ( ++$i > $this->limit ) {
         break;
       }
 

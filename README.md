@@ -37,7 +37,7 @@ public integer $limit = 25000
 
 ```php
 // Add URL to Sitemap 
-public add( url $loc, string $lastmod = '', string $changefreq = '', float $priority = ''  )
+public function add( url $loc, string $lastmod = '', string $changefreq = '', float $priority = ''  )
 
 // Parameters
 $loc // Relative Url (without baseurl) 
@@ -48,5 +48,5 @@ $priority // Sitemap Spec. Must between 0.0 and 1.0
 
 ```php
 // Generate and Save Sitemap Files
-public generate( )
+public function generate( )
 ```

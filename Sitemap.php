@@ -8,7 +8,7 @@
  * Example:
  * <pre>
  * $sitemap = new Sitemap();
- * $sitemap->baseurl( 'https://www.example.com' );
+ * $sitemap->baseurl = 'https://www.example.com';
  * $sitemap->target = '../';
  * $sitemap->limit = 10000;
  * $sitemap->add( '/index.html' );
